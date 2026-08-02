@@ -14,3 +14,31 @@ see a trend chart, all scoped privately per user.
 - **Claude Code** for ongoing AI-assisted development (see `CLAUDE.md`)
 
 ---
+
+## Getting started
+
+This is a **test project** — the `.env.local` file is committed and contains real Supabase credentials for a throwaway account. No setup required.
+
+### Prerequisites
+
+- **Node.js 24+**
+
+### Run it
+
+```bash
+git clone https://github.com/calvnce/Everweight.git
+cd Everweight
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000). Sign up with any email + password (it doesn't need to be real — email confirmation is off) and start logging weigh-ins.
+
+### Build for production
+
+```bash
+npm run build
+npm run start
+```
+
+### Stack
