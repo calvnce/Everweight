@@ -1,6 +1,4 @@
 -- Everweight: initial schema.
--- Apply with: supabase db push
-
 create table if not exists public.weight_entries (
   id uuid primary key default gen_random_uuid(),
   user_id uuid not null references auth.users(id) on delete cascade,
